@@ -1,0 +1,11 @@
+.lottie_container {
+    height: 70%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s ease-in-out;
+
+    background-color: #25123A;
+}

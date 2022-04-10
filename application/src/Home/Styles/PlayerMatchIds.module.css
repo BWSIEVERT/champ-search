@@ -1,0 +1,21 @@
+.stats_container {
+    height: auto;
+    width: 100%;
+
+    background-color: #25123A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    height: auto;
+    width: 100%;
+
+    background-color: #25123A;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

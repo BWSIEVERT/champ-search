@@ -1,0 +1,383 @@
+.wrapper {
+    height: 100%;
+    width: 100%;
+
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    padding-bottom: 2%;
+/* 
+    border: 1px solid white; */
+
+    border-bottom: 1px solid #c7c7c7;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player_name {
+    height: 10%;
+    width: 100%;
+
+    margin-bottom: 1%;
+}
+
+.player_name p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    color: #E40078;
+}
+
+.player_name span {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.player_info_container {
+    height: 90%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container_champion {
+    height: 100%;
+    width: 20%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.champion_info {
+    height: 95%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.champion_icon {
+    height: 100%;
+    width: auto;
+}
+
+.champion_summoner_spells {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.spell {
+    height: auto;
+    width: auto;
+}
+
+.spell img {
+    height: 35px;
+    width: 35px;
+}
+
+.container_items {
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.items_inner {
+    height: 100%;
+    width: 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    height: 60%;
+    width: 12%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item img {
+    height: 50px;
+    width: 50px;
+}
+
+.status_inner {
+    height: 60%;
+    width: auto;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.status_inner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 20px;
+    text-transform: uppercase;
+
+    color: #E40078;
+
+    margin-right: 20%;
+}
+
+.container_stats {
+    height: 100%;
+    width: 30%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kills_inner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.deaths_inner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.assists_inner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+.ratio_inner p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-transform: uppercase;
+
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 1250px) {
+    .champion_icon img {
+        height: 100px;
+        width: 100px;
+    }
+    .spell img {
+        height: 30px;
+        width: 30px;
+    }
+    .item img {
+        height: 40px;
+        width: 40px;
+    }
+    .status_inner p {
+        font-size: 18px;
+    }
+    .kills_inner p {
+        font-size: 12px;
+    }
+    .deaths_inner p {
+        font-size: 12px;
+    }
+    .assists_inner p {
+        font-size: 12px;
+    }
+    .ratio_inner p {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .player_name p {
+        font-size: 12px;
+    }
+    .player_name span {
+        font-size: 12px;
+    }
+    .champion_icon img {
+        height: 70px;
+        width: 70px;
+    }
+    .spell img {
+        height: 25px;
+        width: 25px;
+    }
+    .item img {
+        height: 30px;
+        width: 30px;
+    }
+    .status_inner p {
+        font-size: 14px;
+    }
+    .kills_inner p {
+        font-size: 10px;
+    }
+    .deaths_inner p {
+        font-size: 10px;
+    }
+    .assists_inner p {
+        font-size: 10px;
+    }
+    .ratio_inner p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 690px) {
+    .player_name p {
+        font-size: 10px;
+    }
+    .player_name span {
+        font-size: 10px;
+    }
+    .champion_icon img {
+        height: 60px;
+        width: 60px;
+    }
+    .spell img {
+        height: 20px;
+        width: 20px;
+    }
+    .item img {
+        height: 25px;
+        width: 25px;
+    }
+    .status_inner p {
+        font-size: 10px;
+    }
+    .kills_inner p {
+        font-size: 8px;
+    }
+    .deaths_inner p {
+        font-size: 8px;
+    }
+    .assists_inner p {
+        font-size: 8px;
+    }
+    .ratio_inner p {
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 590px) {
+    .player_info_container {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
+    .player_name {
+        margin: 2%;
+    }
+    .player_info_container {
+        margin-bottom: 2%;
+    }
+    .container_champion {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .champion_info {
+        justify-content: flex-start;
+    }
+    .container_items {
+        margin-top: 2%;
+        margin-bottom: 2%;
+
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .status_inner {
+        display: none;
+    }
+    .container_items {
+        width: 60%;
+    }
+    .items_inner {
+        justify-content: flex-start;
+    }
+    .container_stats {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .kills_inner {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .deaths_inner {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .assists_inner {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+    .ratio_inner {
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .container_champion {
+        width: 30%;
+    }
+    .container_items {
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .container_champion {
+        width: 35%;
+    }
+    .container_items {
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .container_champion {
+        width: 40%;
+    }
+    .container_items {
+        width: 100%;
+    }
+}

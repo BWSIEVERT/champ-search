@@ -46,3 +46,23 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #B62DE5 #25123A;
+  }
+  
+  /* Works on Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+	width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+	background: #25123A;
+  }
+  
+  *::-webkit-scrollbar-thumb {
+	background-color: #B62DE5;
+	border-radius: 20px;
+	border: 3px solid #25123A;
+  }

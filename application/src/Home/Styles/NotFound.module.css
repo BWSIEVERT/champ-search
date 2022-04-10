@@ -1,0 +1,36 @@
+.lottie_container {
+    height: 70%;
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    transition: 1s ease-in-out;
+
+    background-color: #25123A;
+
+    margin-bottom: 6%;
+}
+
+.lottie_container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    text-align: center;
+
+    color: #ffffff;
+}
+
+.text_align {
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 4%;
+}
